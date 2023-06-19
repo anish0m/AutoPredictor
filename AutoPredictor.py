@@ -37,7 +37,7 @@ def car_price_prediction(input_data):
     return "Estimated car price: " + str(prediction[0])
 
 def main():
-    st.title('Car price detector by the Ultimate Buds')
+    st.title('AutoPredictor by the Ultimate Buds')
 
     year = st.text_input('Year')
     transmission = st.selectbox('Transmission', ('Automatic', 'Manual', 'Semi-Auto', 'Other'))
